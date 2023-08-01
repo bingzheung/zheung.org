@@ -1,5 +1,6 @@
 html, body {
         font-family: JetBrains Mono, SF Mono, SFMono-Regular, Menlo, ui-monospace, monospace;
+        line-height: 1.8em;
 }
 a {
         text-decoration: none;
