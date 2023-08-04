@@ -1,8 +1,81 @@
 html, body {
-        font-family: JetBrains Mono, SF Mono, SFMono-Regular, Menlo, ui-monospace, monospace;
+        font-family: -apple-system, BlinkMacSystemFont, SF Pro, Inter, Google Sans Text, Roboto, Segoe UI, Helvetica Neue, Noto Sans, Arial, Advocate Ancient Sans, ChiuKong Gothic CL, Source Han Sans K, Noto Sans CJK KR, Sarasa Gothic CL, PingFang HK, Source Han Sans HC, Noto Sans CJK HK, Noto Sans HK, Microsoft JhengHei, ui-sans-serif, sans-serif;
         line-height: 1.8em;
 }
+
+.center-align {
+        text-align: center;
+}
+
 a {
         text-decoration: none;
         color: #1F9BF3;
+}
+
+img.button {
+        width: 150px
+}
+img.button-large {
+        width: 300px
+}
+
+pre, code {
+        font-family: JetBrains Mono, SF Mono, SFMono-Regular, Consolas, Menlo, ui-monospace, monospace;
+}
+pre {
+        overflow: auto;
+        white-space: pre;
+        padding: 2em;
+        line-height: 1.6em;
+        border-radius: 0.3em;
+}
+
+@media(prefers-color-scheme: dark) {
+        html, body {
+                color: white;
+                background: #121212;
+        }
+        a:hover {
+                color: white;
+        }
+        pre {
+                background-color: #222222;
+        }
+}
+@media(prefers-color-scheme: light) {
+        html, body {
+                color: black;
+                background: white;
+        }
+        a:hover {
+                color: black;
+        }
+        pre {
+                background-color: #eeeeee;
+        }
+}
+@media(prefers-color-scheme: no-preference) {
+        html, body {
+                color: black;
+                background: white;
+        }
+        a:hover {
+                color: black;
+        }
+        pre {
+                background-color: #eeeeee;
+        }
+}
+
+@media (min-width: 1000px) {
+        body {
+                padding-left: 10%;
+                padding-right: 10%;
+        }
+}
+@media (min-width: 1900px) {
+        body {
+                padding-left: 20%;
+                padding-right: 20%;
+        }
 }
