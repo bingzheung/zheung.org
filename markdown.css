@@ -157,7 +157,7 @@ body svg:not(:root) {
 body code,
 body kbd,
 body pre {
-  font-family: SF Mono, JetBrains Mono, SF Pro, Inter, Helvetica Neue, Apple Color Emoji, Advocate Ancient Sans, PingFang HK, Plangothic P1, Plangothic P2, "I.MingCP", HanaMinB, Apple Symbols, ui-monospace, monospace;
+  font-family: Monaspace Neon, JetBrains Mono, SF Mono, SF Pro, Inter, Helvetica Neue, Apple Color Emoji, Advocate Ancient Sans, PingFang HK, Plangothic P1, Plangothic P2, "I.MingCP", HanaMinB, Apple Symbols, ui-monospace, monospace;
   font-size: 1em;
 }
 
@@ -308,14 +308,15 @@ body dd {
 }
 
 body code {
-  font-family: SF Mono, JetBrains Mono, SF Pro, Inter, Helvetica Neue, Apple Color Emoji, Advocate Ancient Sans, PingFang HK, Plangothic P1, Plangothic P2, "I.MingCP", HanaMinB, Apple Symbols, ui-monospace, monospace;
+  font-family: Monaspace Neon, JetBrains Mono, SF Mono, SF Pro, Inter, Helvetica Neue, Apple Color Emoji, Advocate Ancient Sans, PingFang HK, Plangothic P1, Plangothic P2, "I.MingCP", HanaMinB, Apple Symbols, ui-monospace, monospace;
   font-size: 12px;
 }
 
 body pre {
   margin-top: 0;
   margin-bottom: 0;
-  font: 12px SF Mono, JetBrains Mono, SF Pro, Inter, Helvetica Neue, Apple Color Emoji, Advocate Ancient Sans, PingFang HK, Plangothic P1, Plangothic P2, "I.MingCP", HanaMinB, Apple Symbols, ui-monospace, monospace;
+  font-family: Monaspace Neon, JetBrains Mono, SF Mono, SF Pro, Inter, Helvetica Neue, Apple Color Emoji, Advocate Ancient Sans, PingFang HK, Plangothic P1, Plangothic P2, "I.MingCP", HanaMinB, Apple Symbols, ui-monospace, monospace;
+  font-size: 12px;
 }
 
 body .octicon {
@@ -650,7 +651,8 @@ body .full-commit .btn-outline:not(:disabled):hover {
 body kbd {
   display: inline-block;
   padding: 3px 5px;
-  font: 11px SF Mono, JetBrains Mono, SF Pro, Inter, Helvetica Neue, Apple Color Emoji, Advocate Ancient Sans, PingFang HK, Plangothic P1, Plangothic P2, "I.MingCP", HanaMinB, Apple Symbols, ui-monospace, monospace;
+  font-family: Monaspace Neon, JetBrains Mono, SF Mono, SF Pro, Inter, Helvetica Neue, Apple Color Emoji, Advocate Ancient Sans, PingFang HK, Plangothic P1, Plangothic P2, "I.MingCP", HanaMinB, Apple Symbols, ui-monospace, monospace;
+  font-size: 11px;
   line-height: 10px;
   color: #555;
   vertical-align: middle;
