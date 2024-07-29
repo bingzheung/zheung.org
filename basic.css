@@ -6,6 +6,9 @@ html, body {
 .center-align {
         text-align: center;
 }
+.double-line-height {
+        line-height: 2em;
+}
 
 a {
         text-decoration: none;
@@ -16,7 +19,7 @@ img.button {
         width: 150px
 }
 img.button-large {
-        width: 300px
+        width: 200px
 }
 
 pre, code {
