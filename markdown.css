@@ -12,7 +12,7 @@ body {
   -webkit-text-size-adjust: 100%;
   line-height: 1.5;
   color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, SF Pro, Inter, Helvetica Neue, Apple Color Emoji, Shanggu Sans, PingFang HK, Plangothic P1, Plangothic P2, MiSans L3, Apple Symbols, ui-sans-serif, system-ui, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, SF Pro, Arial, Inter, Helvetica Neue, Shanggu Sans, PingFang HK, Plangothic P1, Plangothic P2, MiSans L3, Apple Color Emoji, Apple Symbols, ui-sans-serif, system-ui, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   word-wrap: break-word;
@@ -157,7 +157,8 @@ body svg:not(:root) {
 body code,
 body kbd,
 body pre {
-  font-family: Monaspace Neon, SF Pro, Inter, Helvetica Neue, Apple Color Emoji, Shanggu Sans, PingFang HK, Plangothic P1, Plangothic P2, MiSans L3, Apple Symbols, ui-monospace, monospace;
+  font-family: JetBrains Mono, SF Mono, Monaspace Neon, SF Pro, Arial, Inter, Helvetica Neue, Shanggu Sans, PingFang HK, Plangothic P1, Plangothic P2, MiSans L3, Apple Color Emoji, Apple Symbols, ui-monospace, monospace;
+  font-feature-settings: calt, cv01, cv08, cv09, cv10, cv11, cv12, zero, liga;
   font-size: 1em;
 }
 
@@ -308,14 +309,16 @@ body dd {
 }
 
 body code {
-  font-family: Monaspace Neon, SF Pro, Inter, Helvetica Neue, Apple Color Emoji, Shanggu Sans, PingFang HK, Plangothic P1, Plangothic P2, MiSans L3, Apple Symbols, ui-monospace, monospace;
+  font-family: JetBrains Mono, SF Mono, Monaspace Neon, SF Pro, Arial, Inter, Helvetica Neue, Shanggu Sans, PingFang HK, Plangothic P1, Plangothic P2, MiSans L3, Apple Color Emoji, Apple Symbols, ui-monospace, monospace;
+  font-feature-settings: calt, cv01, cv08, cv09, cv10, cv11, cv12, zero, liga;
   font-size: 12px;
 }
 
 body pre {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Monaspace Neon, SF Pro, Inter, Helvetica Neue, Apple Color Emoji, Shanggu Sans, PingFang HK, Plangothic P1, Plangothic P2, MiSans L3, Apple Symbols, ui-monospace, monospace;
+  font-family: JetBrains Mono, SF Mono, Monaspace Neon, SF Pro, Arial, Inter, Helvetica Neue, Shanggu Sans, PingFang HK, Plangothic P1, Plangothic P2, MiSans L3, Apple Color Emoji, Apple Symbols, ui-monospace, monospace;
+  font-feature-settings: calt, cv01, cv08, cv09, cv10, cv11, cv12, zero, liga;
   font-size: 12px;
 }
 
@@ -651,7 +654,8 @@ body .full-commit .btn-outline:not(:disabled):hover {
 body kbd {
   display: inline-block;
   padding: 3px 5px;
-  font-family: Monaspace Neon, SF Pro, Inter, Helvetica Neue, Apple Color Emoji, Shanggu Sans, PingFang HK, Plangothic P1, Plangothic P2, MiSans L3, Apple Symbols, ui-monospace, monospace;
+  font-family: JetBrains Mono, SF Mono, Monaspace Neon, SF Pro, Arial, Inter, Helvetica Neue, Shanggu Sans, PingFang HK, Plangothic P1, Plangothic P2, MiSans L3, Apple Color Emoji, Apple Symbols, ui-monospace, monospace;
+  font-feature-settings: calt, cv01, cv08, cv09, cv10, cv11, cv12, zero, liga;
   font-size: 11px;
   line-height: 10px;
   color: #555;
