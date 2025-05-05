@@ -158,7 +158,7 @@ body code,
 body kbd,
 body pre {
   font-family: JetBrains Mono, SF Mono, Monaspace Neon, SF Pro, Arial, Inter, Helvetica Neue, Shanggu Sans, PingFang HK, Plangothic P1, Plangothic P2, MiSans L3, Apple Color Emoji, Apple Symbols, ui-monospace, monospace;
-  font-feature-settings: calt, cv01, cv08, cv09, cv10, cv11, cv12, zero, liga;
+  font-feature-settings: "calt", "cv01", "cv08", "cv09", "cv10", "cv11", "cv12", "zero", "liga";
   font-size: 1em;
 }
 
@@ -310,7 +310,7 @@ body dd {
 
 body code {
   font-family: JetBrains Mono, SF Mono, Monaspace Neon, SF Pro, Arial, Inter, Helvetica Neue, Shanggu Sans, PingFang HK, Plangothic P1, Plangothic P2, MiSans L3, Apple Color Emoji, Apple Symbols, ui-monospace, monospace;
-  font-feature-settings: calt, cv01, cv08, cv09, cv10, cv11, cv12, zero, liga;
+  font-feature-settings: "calt", "cv01", "cv08", "cv09", "cv10", "cv11", "cv12", "zero", "liga";
   font-size: 12px;
 }
 
@@ -318,17 +318,12 @@ body pre {
   margin-top: 0;
   margin-bottom: 0;
   font-family: JetBrains Mono, SF Mono, Monaspace Neon, SF Pro, Arial, Inter, Helvetica Neue, Shanggu Sans, PingFang HK, Plangothic P1, Plangothic P2, MiSans L3, Apple Color Emoji, Apple Symbols, ui-monospace, monospace;
-  font-feature-settings: calt, cv01, cv08, cv09, cv10, cv11, cv12, zero, liga;
+  font-feature-settings: "calt", "cv01", "cv08", "cv09", "cv10", "cv11", "cv12", "zero", "liga";
   font-size: 12px;
 }
 
 body .octicon {
   vertical-align: text-bottom;
-}
-
-body input {
-  -webkit-font-feature-settings: "liga" 0;
-  font-feature-settings: "liga" 0;
 }
 
 body::before {
@@ -655,7 +650,7 @@ body kbd {
   display: inline-block;
   padding: 3px 5px;
   font-family: JetBrains Mono, SF Mono, Monaspace Neon, SF Pro, Arial, Inter, Helvetica Neue, Shanggu Sans, PingFang HK, Plangothic P1, Plangothic P2, MiSans L3, Apple Color Emoji, Apple Symbols, ui-monospace, monospace;
-  font-feature-settings: calt, cv01, cv08, cv09, cv10, cv11, cv12, zero, liga;
+  font-feature-settings: "calt", "cv01", "cv08", "cv09", "cv10", "cv11", "cv12", "zero", "liga";
   font-size: 11px;
   line-height: 10px;
   color: #555;
